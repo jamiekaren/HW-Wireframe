@@ -13,29 +13,27 @@ h1, p {
     background: #ebebeb;
 }
 
+#page-wrapper {
+    background: pink;
+}
+
 
 header {
-    margin: 5px;
-    padding: 10px:
-    margin: 10px;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
     position: relative;
     top:0px;
-    z-index: 10;
 }
 
 aside, footer, nav {
     background: #ebebeb;
-    margin: 10px;
 }
 
-footer {
-    position: relative;
-    bottom: 0px;
-}
-
-#side-content {
-    float: right;
-    height: 300px;
+nav {
+    height: 100px;
+    width: 960px;
+    
 }
 
 .nav-bullet {
@@ -46,7 +44,8 @@ footer {
     background: #ebebeb;
     width: 495px;
     margin: 10px;
-    position: relative;
+    padding: 20px;
+    float:left;
     left:0px;
 }
 
@@ -56,4 +55,17 @@ article {
 
 }
 
+#side-content {
+    float: right;
+    width: 375px;
+    height: 550px;
+    margin: 10px;
+    padding: 0px;
+}
 
+footer {
+    height: 50px;
+    width: 960px;
+    clear: both;
+
+}
