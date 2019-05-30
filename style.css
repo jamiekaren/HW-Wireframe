@@ -4,6 +4,8 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    position: relative;
+    left:200px;
 }
 
 h1, p {
@@ -11,26 +13,47 @@ h1, p {
     background: #ebebeb;
 }
 
+
 header {
     margin: 5px;
     padding: 10px:
-}
-
-#main-content {
-    background: #ebebeb;
-    width: 495px;
+    margin: 10px;
+    position: relative;
+    top:0px;
+    z-index: 10;
 }
 
 aside, footer, nav {
     background: #ebebeb;
+    margin: 10px;
 }
 
-article {
-    color: #ebebeb;
-    background: #777;
+footer {
+    position: relative;
+    bottom: 0px;
+}
+
+#side-content {
+    float: right;
+    height: 300px;
 }
 
 .nav-bullet {
     list-style: none;
 }
+
+#main-content {
+    background: #ebebeb;
+    width: 495px;
+    margin: 10px;
+    position: relative;
+    left:0px;
+}
+
+article {
+    background: #777;
+    color: #ebebeb;
+
+}
+
 
